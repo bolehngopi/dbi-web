@@ -19,7 +19,7 @@ export const Navbar: React.FC = () => {
     <nav
       className={`${
         isScrolling ? 'shadow-lg bg-blue-600 text-white' : 'bg-white text-black'
-      } p-4 sticky top-0 left-0 z-50 transition-all duration-300`}
+      } p-4 md:sticky fixed w-full top-0 left-0 z-50 transition-all duration-300`}
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
@@ -69,7 +69,7 @@ export const Navbar: React.FC = () => {
       <ul
         className={`${
           isOpen ? 'flex' : 'hidden'
-        } md:hidden flex-col items-center space-y-4 mt-4 bg-blue-700 p-4 rounded-lg`}
+        } md:hidden flex-col items-center space-y-4 mt-4 p-4 rounded-lg`}
         role="menu"
         aria-label="Mobile navigation"
       >
@@ -77,7 +77,7 @@ export const Navbar: React.FC = () => {
           <li key={index} role="menuitem">
             <a
               href={item.link}
-              className="text-white hover:text-gray-300 transition-colors duration-300"
+              className={`${isScrolling ? 'text-white hover:text-gray-300' : 'text-black hover:text-gray-300'} transition-colors duration-300`}
               onClick={() => setIsOpen(false)}
             >
               {item.name}

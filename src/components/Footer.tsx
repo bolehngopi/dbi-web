@@ -1,10 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import { FaInstagram, FaWhatsapp, FaTwitter } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="bg-blue-600 text-white">
+    <footer className="bg-blue-600 text-white" id="footer">
       <div className="container mx-auto px-6 py-10">
         {/* Logo and Description */}
         <div className="flex flex-col md:flex-row justify-between items-center mb-8 space-y-6 md:space-y-0">
@@ -56,7 +57,7 @@ export const Footer: React.FC = () => {
                 className="text-gray-100 hover:text-teal-400 transition duration-300"
                 aria-label="Follow us on Twitter"
               >
-                <FaTwitter size={24} />
+                <FaXTwitter size={24} />
               </a>
             </li>
           </ul>
