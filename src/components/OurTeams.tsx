@@ -1,5 +1,6 @@
 import React from 'react';
 import { teamMembers } from '@/data';
+import Image from 'next/image';
 
 export const OurTeams: React.FC = () => {
   return (
@@ -9,9 +10,11 @@ export const OurTeams: React.FC = () => {
         <div className='grid gap-8 sm:grid-cols-2 lg:grid-cols-4'>
           {teamMembers.map((member, index) => (
             <a href='#' className='group relative block bg-black' key={index}>
-              <img
-                src={member.image}
+              <Image
+                src={member.image || "https://via.placeholder.com/300"}
                 alt={member.name}
+                layout='fill'
+                objectFit='cover'
                 className='absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50'
               />
 

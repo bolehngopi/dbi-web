@@ -2,35 +2,37 @@ export const teamMembers = [
   {
     name: 'Ahmad Dhani',
     role: 'JUNGGLER',
-    image: 'ours team/d.jpg',
+    image: null,
   },
-  { name: 'Adrian Adi Putra', role: 'ALL ROLE', image: 'ours team/ian.jpg' },
+  {
+    name: 'Adrian Adi Putra',
+    role: 'ALL ROLE',
+    image: null
+  },
   {
     name: ' Antonius I Wayan Tegar Febrian',
     role: 'ALL ROLE',
-    image: 'ours team/w.jpg',
+    image: null,
   },
   {
     name: 'Juan Farrel',
     role: 'ALL ROLE',
-    image: 'ours team/j.jpg',
+    image: null,
   },
-
   {
     name: 'Aziz Khasyi',
     role: ' FULL STACK Developer',
-    image: 'ours team/ziz.jpg',
+    image: null,
   },
   {
     name: 'Rezezi Axcel',
     role: 'Web Developer',
-    image: 'ours team/a.jpg',
+    image: null,
   },
-
   {
     name: 'Yudha Nur Apriyansyah',
     role: 'Web Developer',
-    image: 'ours team/',
+    image: null,
   },
 ];
 
@@ -46,7 +48,7 @@ export const servicesData = [
     title: "Membuat Website",
     description:
       "Kami merancang dan membangun website modern yang responsif serta sesuai kebutuhan bisnis Anda.",
-    image: "/path/to/website-image.jpg",
+    image: null,
     alt: "Layanan Membuat Website",
     message: "Membuat Website",
   },
@@ -54,7 +56,7 @@ export const servicesData = [
     title: "Mengedit Video",
     description:
       "Menyediakan jasa editing video profesional untuk promosi, dokumentasi, atau konten kreatif.",
-    image: "/path/to/video-editing-image.jpg",
+    image: null,
     alt: "Layanan Mengedit Video",
     message: "Mengedit Video",
   },
@@ -62,7 +64,7 @@ export const servicesData = [
     title: "Mengedit Foto",
     description:
       "Jasa editing foto untuk memperindah gambar dengan hasil yang memukau dan berkualitas tinggi.",
-    image: "/path/to/photo-editing-image.jpg",
+    image: null,
     alt: "Layanan Mengedit Foto",
     message: "Mengedit Foto",
   },
@@ -70,7 +72,7 @@ export const servicesData = [
     title: "Take Foto dan Video",
     description:
       "Layanan pengambilan foto dan video profesional untuk berbagai acara. Pemesanan minimal 1 bulan sebelumnya untuk memastikan ketersediaan jadwal.",
-    image: "/path/to/take-photo-video-image.jpg",
+    image: null,
     alt: "Layanan Take Foto dan Video",
     message: "Take Foto dan Video",
   },
